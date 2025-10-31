@@ -1,8 +1,8 @@
-# 🚌 School Bus Driver App - Complete Implementation Guide
+# School Bus Driver App - Complete Implementation Guide
 
 A professional React Native application for school bus drivers to track routes, manage student pickups/dropoffs, and communicate with parents.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Setup](#project-setup)
@@ -12,7 +12,7 @@ A professional React Native application for school bus drivers to track routes, 
 - [API Integration](#api-integration)
 - [Testing](#testing)
 
-## ✨ Features
+## Features
 
 ### Driver Features
 - ✅ Real-time GPS location tracking
@@ -32,7 +32,7 @@ A professional React Native application for school bus drivers to track routes, 
 - 🔲 Student pickup/dropoff alerts
 - 🔲 Direct driver communication
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework:** React Native CLI
 - **Language:** TypeScript
@@ -43,7 +43,7 @@ A professional React Native application for school bus drivers to track routes, 
 - **Location:** @react-native-community/geolocation
 - **Icons:** React Native Vector Icons
 
-## 🚀 Project Setup
+## Project Setup
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -158,7 +158,7 @@ Add location permissions:
 <string>This app needs access to location for route tracking</string>
 ```
 
-## 📁 File Structure
+## File Structure
 
 ```
 SchoolBusDriver/
@@ -191,7 +191,7 @@ SchoolBusDriver/
 └── package.json
 ```
 
-## 🏃 Running the App
+## Running the App
 
 ### Android
 
@@ -211,7 +211,7 @@ npx react-native run-ios
 npx react-native start
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### API Configuration
 
@@ -235,7 +235,7 @@ export const API_CONFIG = {
 
 Edit `src/config/theme.ts` to customize colors, spacing, and fonts.
 
-## 🔌 API Integration
+## API Integration
 
 ### Backend Requirements
 
@@ -279,7 +279,7 @@ const data = await getRouteStudents(routeId);
 setStudents(data);
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Run Tests
 
@@ -301,7 +301,7 @@ xcrun simctl list devices  # List simulators
 npx react-native run-ios --simulator="iPhone 14"
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -325,7 +325,7 @@ npx react-native run-ios --simulator="iPhone 14"
    - Verify permissions in AndroidManifest.xml / Info.plist
    - Enable required APIs in Google Cloud Console
 
-## 📝 Environment Variables
+## Environment Variables
 
 Create `.env` file:
 
@@ -334,7 +334,7 @@ API_BASE_URL=https://api.yourschool.com
 GOOGLE_MAPS_API_KEY=your_api_key_here
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Android APK
 
@@ -362,7 +362,7 @@ APK location: `android/app/build/outputs/apk/release/app-release.apk`
 - [ ] Advanced analytics
 - [ ] Multi-language support
 
-## 👥 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -370,7 +370,7 @@ APK location: `android/app/build/outputs/apk/release/app-release.apk`
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
@@ -378,7 +378,7 @@ This project is licensed under the MIT License.
 
 For issues and questions:
 - Create an issue on GitHub
-- Email: support@yourschool.com
+- Email: abdelrahmansharaf9@gmail.com
 - Documentation: [Link to docs]
 
 ---
